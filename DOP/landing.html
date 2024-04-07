@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #8ba6cc;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(flagre.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .container {
+            text-align: center;
+            padding-bottom: 5%;
+        }
+
+        h1 {
+            font-size:60px;
+            margin-bottom: 20px;
+            color: #ffffff;
+            text-shadow: 2px 2px 2px #000000;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .button {
+            padding: 10px 20px;
+            margin: 0 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #ddd;
+        }
+
+        .login {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        .officer {
+            background-color: #28a745;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to District Oversight Portal.</h1>
+        <div class="button-container">
+            <a href = "login1.html"><button class="button login">Click here to login as Administration</button></a>
+            <a href = "login1.html"><button class="button officer">Click here to login for Department</button></a>
+        </div>
+    </div>
+</body>
+</html>
